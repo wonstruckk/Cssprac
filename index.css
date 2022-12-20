@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #eeeeee;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.wrapper {
+  width: 620px;
+  padding: 40px 30px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.wrapper_header {
+  /* background-color: red; */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed gray;
+}
+
+.wrapper_header_title {
+  font-size: 32px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapper_header_sub-title {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+/* span태그는 인라인 요소이기 때문에 마진이 적용되ㅣㅈ 않는다.*/
+/* 블록요소로 바꾸어 주자. */
+#point {
+  color: orange;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 15px;
+  display: block;
+}
+
+.wrapper_body {
+  border: 1px solid #dddddd;
+  padding: 20px 30px;
+}
+
+.diary-title {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.kimchi {
+  color: red;
+  font-weight: 600;
+}
+
+.egg {
+  color: orange;
+  font-weight: 600;
+}
+
+.highlight {
+  font-size: 22px;
+  color: blue;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.diary-date {
+  color: #919191;
+  font-size: 14px;
+  text-align: right;
+}
